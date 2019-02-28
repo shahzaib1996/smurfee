@@ -1511,6 +1511,9 @@ end of css
 lSSslide ul css
 ===========
 */
+.lSSlideOuter {
+	border-radius:50px 50px 50px 50px !important;
+}
 .lSSlideOuter  ul {
     height: auto !important;
 }
@@ -1818,7 +1821,7 @@ widget_storevilla_cat_widget_area css
     display: block;
     left: 0;
     padding: 13px 0;
-    position: absolute;
+/*     position: absolute; */
     right: 0;
     text-align: center;
     transition: all 0.2s ease-in-out 0s;
@@ -2266,6 +2269,7 @@ widget_storevilla_cat_with_product_widget_area css
     border-top: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
+	
 }
 .widget_storevilla_cat_with_product_widget_area .left_align .lSSlideWrapper.usingCss {
     border-left: 1px solid #eeeeee;    
